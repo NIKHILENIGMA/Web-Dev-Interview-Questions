@@ -21,7 +21,9 @@
 - A java-script engine is a program present in web browsers that executes JavaScript code.
 
 ##  What is Client side and Server side?
-![Client-server-architecture](./Image/Client-server-model.svg.png)
+<div style="background-color: rgba(255, 255, 255, 0.7); height: 500px;">
+  <img src="./Image/Client-server-model.svg.png" alt="Client-server-architecture" style="object-fit: contain; height: 100vh; width: 100%;">
+</div>
 
 - <span style="font-weight:600; font-size:1.2rem">Client:</span> A Client is device, application or software component that requests and conssumes services or resources from a server.
 
