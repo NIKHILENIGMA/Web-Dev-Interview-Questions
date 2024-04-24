@@ -1,2 +1,0 @@
-# Browser APIs & Web Storage
-
