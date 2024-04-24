@@ -10,7 +10,7 @@
 | 6     |   [What is JSON?](#what-is-json)                                |    
    
 
-##  What is JavaScript? What is the role of JavaScript engine?
+1. ##  What is JavaScript? What is the role of JavaScript engine?
 - JavaScript is a programming language that is used for converting static web pages to <span style="color:#13E3E3; font-weight:500">interactive and dynamic web pages</span>.
 - JavaScript engine inside different browsers are:
     - chrome <span style="color:#13E3E3;">(V8)</span> 
@@ -20,7 +20,7 @@
 
 - A java-script engine is a program present in web browsers that executes JavaScript code.
 
-##  What is Client side and Server side?
+2. ##  What is Client side and Server side?
 <div style="background-color: rgba(255, 255, 255, 0.7); height: 500px;">
   <img src="./Image/Client-server-model.svg.png" alt="Client-server-architecture" style="object-fit: contain; height: 100vh; width: 100%;">
 </div>
@@ -29,7 +29,7 @@
 
 - <span style="font-weight:600; font-size:1.2rem">Server:</span> A Server is device, computer or software component that provides services, resources, or functions to clients.
 
-##  What is Scope in Java Script?
+3. ##  What is Scope in Java Script?
 - In JavaScript, scope refers to the current context of code, which determines the accessibility of variables to JavaScript.
 
 - Scope determines where variables are defined and where they can be accessed.
@@ -122,7 +122,7 @@
         ```
 
 
-## What is the type of a variable in JS when it is declared without using the `var`, `let` and `const`keywords?
+4. ## What is the type of a variable in JS when it is declared without using the `var`, `let` and `const`keywords?
 ```javascript
     if (true) {
         variable = 10;
@@ -137,7 +137,7 @@
 
 
 
-## What is Hositing in Java script?
+5. ## What is Hositing in Java script?
 - Hositing is a Java script behavior where functions and variable declaration are moved to the top of their respective scopes during the compliation phase.
 - There are two main types of hoisting in JavaScript: 
     - variable hoisting
@@ -177,7 +177,7 @@
 
 ```
 
-## What is JSON?
+6. ## What is JSON?
 - JSON, which stands for <span style="color:#13E3E3; font-weight:500">JavaScript Object Notation</span>, is a lightweight <span style="color:#13E3E3; font-weight:500">data-interchange format </span> that is easy for humans to read and write and easy for machines to parse and generate. 
 - It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. 
 - JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. - This property makes JSON an ideal data-interchange language.
