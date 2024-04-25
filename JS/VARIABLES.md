@@ -1,5 +1,5 @@
 # Variables and Data types
-<span style="color:#13E3E3; font-weight:500;font-size:15px"></span>
+<!-- <span style="color:#13E3E3; font-weight:500;font-size:15px"></span> -->
 | No    | Questions                          |
 | ------| ------------------------------------------------- |
 | 1     | [What are variables? What is the difference between var, let, and const ?](#what-are-variables-what-is-the-difference-between-var-let-and-const) |                     
@@ -63,16 +63,81 @@
 
 
 3. ## What is the difference between primitive and non-primitive data types?
--  
 
+
+| Primitive data types                     | Non-primitive data types                       |
+|----------------------------------------  | ----------------------------------------------- |
+| - Primitive data types can hold only     | -  Non-primitive data types can hold multiple |
+|   **single valued**                      |    values or complex data structures.         |
+| - Primitive data types are immutable,    | -  Non-primitive data types are mutable,      |
+|   meaning their values, once assigned,   |    meaning their values can be changed        |
+|   cannot be changed.                     |    after assignment.                          |
+| - Number, String, boolean, undefined,    | - Object, array, function, date, regexp are   |
+|   null are primitive data types.         |   non-primitive data types.                   |
 
 
 4. ##  What is the difference between null and undefined in JS?
-- 
+
+| Null                                     | Undefined                       |
+|----------------------------------------  | ----------------------------------------------- |
+| -  **null** variables are intentionally  | -  When a variable is declared but has not been |
+|    assigned **the null value**           |    assigned a value, it is automatically        |
+|                                          |    initialized with undefined                   |    
+| - Null can be used when you are sure you | -  Undefined can be used when you don't have the |  
+|   do not have any value for the          |    value right now,but you will get it after some |
+|   particular variables                   |    logic or opration                          |
 
 5. ## What is the use of typeof operator?
-- 
+- typeof operator is used to determine the type of each variable.
+- typeof operator can be used to validate the data received from external source(api).
+
+``` javascript
+    let number = 465;
+    let string = "hello world!";
+    let boolean = true;
+    let array = [ 1, 2, 3, 4, 5 ]
+    let function = function(){}
+    let undefine = undefined;
+
+    // Using Typeof 
+    console.log(typeof number)
+    // Output: "number" 
+    console.log(typeof string)
+    // Output: "string"
+    console.log(typeof boolean)
+    // Output: "boolean"
+    console.log(typeof array)
+    // Output: "object"
+    console.log(typeof function)
+    // Output: "function"
+    console.log(typeof undefine)
+    // Output: "undefined"
+```
 
 6. ## What is type coercion in JS?
-- 
+- Type coercion is the automatic conversion of values from one data type to another during 
+  certain opertions or comparisons.
+
+```javascript
+    let string = "56";
+    let number = 89;
+    let boolean = true;
+    let nullValue = null;
+
+
+    // Type coercion is the automatic conversion
+    console.log(string + number)
+    // Output: "5689"
+    console.log(number + boolean) // 89 + 1 => 90
+    // Output: 90
+    console.log(number == string)
+    // Output: true
+    console.log(boolean + nullValue)
+    // Output: 1
+
+```
+- Type coercion can be used during String and Number conversion.
+- Type coercion can be used during Comparison operators.
+
+
 
