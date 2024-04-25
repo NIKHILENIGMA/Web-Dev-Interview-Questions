@@ -1,6 +1,6 @@
 # Operation & Condition
 
-
+# Content 
 |  No  | Question                                    |
 | ---  | --------------------------------------------| 
 |  1   | [What are operators? What are the types of operators in JS?](#what-are-operators-what-are-the-types-of-operators-in-js)                                        |   
@@ -84,6 +84,8 @@
         - Right shift (`>>`)
         - Unsigned right shift (`>>>`)
 
+[⬆️ Back to top](#content)
+
 2. ## What is the difference between unary, binary, and ternary operators?
 ![oprators](/Image/maxresdefault.jpg)
 
@@ -124,6 +126,8 @@
 
 ```
 
+[⬆️ Back to top](#content)
+
 
 3. ## What is short-circuit evaluation in JS?
 - Short-circuit evaluation stops the execution as soon as the result can be determined without 
@@ -135,6 +139,9 @@
     let result = true || anything; // Short-circuits, 'anything' is not evaluated
 
 ```
+
+[⬆️ Back to top](#content)
+
 
 4. ## What is operator precedence?
 - As per operator precedence, the operators with higher precedence are **evaluated first**.
@@ -153,6 +160,9 @@
     // Output 27
 
 ```
+
+[⬆️ Back to top](#content)
+
 
 5. ## What are the types of conditions statements in JS?
 - There are three kinds of conditions statements:
@@ -198,6 +208,8 @@
 
     ```
 
+[⬆️ Back to top](#content)
+
 6. ## When to use which type of conditions statements in real applications?
 - **`if` Statement**:
     - Use an `if` statement when you need to execute a block of code only if a specified condition is true. 
@@ -208,7 +220,7 @@
 
 ```javascript
    if (user.isLoggedIn) {
-    console.log(`Welcome back, ${user.name}!`);
+       console.log(`Welcome back, ${user.name}!`);
    }
 
 ```
@@ -222,9 +234,9 @@
 
 ```javascript
     if (user.isLoggedIn) {
-    console.log(`Welcome back, ${user.name}!`);
+        console.log(`Welcome back, ${user.name}!`);
     } else {
-    console.log("Welcome, guest!");
+        console.log("Welcome, guest!");
     }
 
 ```
@@ -238,11 +250,11 @@
 
 ```javascript
     if (user.subscription === "premium") {
-      console.log("Welcome, premium user!");
+        console.log("Welcome, premium user!");
     } else if (user.subscription === "standard") {
-      console.log("Welcome, standard user!");
+        console.log("Welcome, standard user!");
     } else {
-      console.log("Please subscribe to access premium features.");
+        console.log("Please subscribe to access premium features.");
     }
 ```
 
@@ -255,15 +267,15 @@
 
 ```javascript
     switch (keyPressed) {
-      case 'ArrowUp':
-        movePlayerUp();
+        case 'ArrowUp':
+            movePlayerUp();
         break;
       case 'ArrowDown':
-        movePlayerDown();
+          movePlayerDown();
         break;
       // Additional cases...
       default:
-        console.log("Key not recognized");
+          console.log("Key not recognized");
     }
 ```
 
@@ -278,6 +290,9 @@
     let statusMessage = user.isOnline ? "Online" : "Offline";
     console.log(statusMessage);
 ```
+
+[⬆️ Back to top](#content)
+
 
 7. ## What is the difference between == and ===?
 - **Loose Equality (==)** operator compares two values for equality after performing type coercion.
@@ -318,6 +333,9 @@
 
 ```
 
+
+[⬆️ Back to top](#content)
+
 8. ## What is the difference between Spread and Rest operator in JS?
 - The Spread operator (...) is used to expand or spread elements from 
   an iterable (such as an array, string, or object) into individual 
@@ -334,7 +352,7 @@
 
     // Example 2: passing multiple arguments to a function
     function sum(x, y, z) {
-    return x + y + z;
+        return x + y + z;
     }
     const numbers = [1, 2, 3];
     console.log(sum(...numbers)); // Outputs: 6
@@ -366,3 +384,4 @@
 
 ```
 
+[⬆️ Back to top](#content)
