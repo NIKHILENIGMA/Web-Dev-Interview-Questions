@@ -17,6 +17,8 @@
 - Asynchronous programming in JavaScript allows operations to run in the background without blocking the execution of the main thread.
 - This is particularly useful for tasks that take time, such as network requests or file I/O, enabling the application to remain responsive while waiting for these operations to complete.
 
+[⬆️ Go back to top](#)
+
 ## Question 2
 
 **What is the difference between synchronous and asynchronous programming?**
@@ -25,6 +27,8 @@
 - This can lead to blocking behavior, where the application becomes unresponsive during long-running tasks.
 - **Asynchronous programming**, on the other hand, allows tasks to be initiated and then continue executing other code while waiting for the initial task to complete.
 - This improves performance and user experience by keeping the application responsive.
+
+[⬆️ Go back to top](#)
 
 ## Question 3
 
@@ -35,6 +39,8 @@ Common techniques for achieving asynchronous operations in JavaScript include:
 - **Callbacks**: Functions passed as arguments to be executed after a task completes.
 - **Promises**: Objects representing the eventual completion (or failure) of an asynchronous operation, allowing for cleaner chaining of operations.
 - **Async/Await**: A syntactic sugar built on promises that allows writing asynchronous code in a more synchronous style, making it easier to read and maintain.
+
+[⬆️ Go back to top](#)
 
 ## Question 4
 
@@ -49,6 +55,8 @@ setTimeout(() => {
 }, 2000);
 ```
 
+[⬆️ Go back to top](#)
+
 ## Question 5
 
 **What is setInterval()? How is it used to handle asynchronous operations?**
@@ -61,6 +69,8 @@ setInterval(() => {
   console.log("This message is displayed every 1 second");
 }, 1000);
 ```
+
+[⬆️ Go back to top](#)
 
 ## Question 6
 
@@ -80,6 +90,8 @@ fetch("https://api.example.com/data", {
   })
   .catch((error) => console.error("Error fetching data:", error));
 ```
+
+[⬆️ Go back to top](#)
 
 ## Question 7
 
@@ -103,3 +115,5 @@ async function fetchData() {
   }
 }
 ```
+
+[⬆️ Go back to top](#)
